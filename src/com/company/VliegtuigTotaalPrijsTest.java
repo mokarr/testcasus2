@@ -23,11 +23,11 @@ class VliegtuigTotaalPrijsTest {
     }
     @Test
     void totaalPrijs5() {
-        assertEquals (3993, new VliegtuigTotaalPrijs(7000,2,true,true).getGewichtPrijs(), 0.001);
+        assertEquals (3300, new VliegtuigTotaalPrijs(7000,2,true,false).getGewichtPrijs(), 0.001);
     }
     @Test
     void totaalPrijs6() {
-        assertEquals (3750, new VliegtuigTotaalPrijs(7000,4,false,false).getGewichtPrijs(), 0.001);
+        assertEquals (4537.5, new VliegtuigTotaalPrijs(7000,4,false,true).getGewichtPrijs(), 0.001);
     }
 
 

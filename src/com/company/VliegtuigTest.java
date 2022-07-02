@@ -18,7 +18,7 @@ class VliegtuigTest {
     }
     @Test
     void gewichtPrijs3() {
-        int gewicht = 990;
+        int gewicht = 999;
         assertEquals (100, new Vliegtuig (gewicht).getprijs(), 0.001);
     }
     @Test
